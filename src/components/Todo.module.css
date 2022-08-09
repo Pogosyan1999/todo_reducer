@@ -1,0 +1,45 @@
+.container{
+    width:400px;
+    height: auto;
+    margin: 50px auto;
+    padding:20px;
+    box-shadow: rgba(255,255,255, 0.35) 0px 5px 15px;
+    box-sizing: border-box;
+    border:1px solid #fff;
+    border-radius: 10px;
+}
+
+.dFlex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.inputContainer{
+    width: 70%;
+}
+
+.inputContainer input{
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    background: none;
+    border-radius: 10px;
+    color:#fff;
+    outline:none;
+    font-size: 17px;
+
+}
+
+
+.button button{
+    padding: 10px 20px;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    color: #fff ;
+}
+

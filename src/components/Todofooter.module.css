@@ -1,0 +1,22 @@
+.dFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn button{
+    padding: 10px 30px;
+    background: none;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.text{
+    color:#fff;
+    margin-top: 10px;
+    font-size: 17px;
+}
+

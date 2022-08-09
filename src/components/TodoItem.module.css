@@ -1,0 +1,61 @@
+.inp input{
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color:#fff;
+    font-size: 17px;
+}
+
+.container{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.checkBox{
+    position: absolute;
+    width: max-content;
+    top:12px;
+    left: 0;
+}
+
+.checkBox input{
+   cursor: pointer;
+
+}
+
+.delete{
+    position: absolute;
+    right: 0;
+    top:10px;
+}
+
+.delete button{
+    color:red;
+    background:none;
+    border:none;
+    cursor: pointer;
+    outline: none;
+    font-size: 17px;
+
+}
+
+.edit{
+    position: absolute ;
+    top:10px;
+    right: 40px;
+}
+
+
+
+.edit button{
+    border:none;
+    outline:none;
+    font-size: 17px;
+    cursor: pointer;
+    background:none;
+    color:green;
+}
